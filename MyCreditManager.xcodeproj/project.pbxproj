@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188399C4293446B900DD5359 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188399C3293446B900DD5359 /* Student.swift */; };
+		188399C6293446D000DD5359 /* StudentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188399C5293446D000DD5359 /* StudentManager.swift */; };
+		188399C8293446EF00DD5359 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188399C7293446EF00DD5359 /* Error.swift */; };
+		188399CA2934473F00DD5359 /* MyCreditManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188399C92934473F00DD5359 /* MyCreditManager.swift */; };
 		18FCFED0291E300800A5E091 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCFECF291E300800A5E091 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		188399C3293446B900DD5359 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		188399C5293446D000DD5359 /* StudentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentManager.swift; sourceTree = "<group>"; };
+		188399C7293446EF00DD5359 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		188399C92934473F00DD5359 /* MyCreditManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCreditManager.swift; sourceTree = "<group>"; };
 		18FCFECC291E300800A5E091 /* MyCreditManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCreditManager; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FCFECF291E300800A5E091 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				18FCFECF291E300800A5E091 /* main.swift */,
+				188399C92934473F00DD5359 /* MyCreditManager.swift */,
+				188399C7293446EF00DD5359 /* Error.swift */,
+				188399C3293446B900DD5359 /* Student.swift */,
+				188399C5293446D000DD5359 /* StudentManager.swift */,
 			);
 			path = MyCreditManager;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188399C8293446EF00DD5359 /* Error.swift in Sources */,
 				18FCFED0291E300800A5E091 /* main.swift in Sources */,
+				188399C6293446D000DD5359 /* StudentManager.swift in Sources */,
+				188399C4293446B900DD5359 /* Student.swift in Sources */,
+				188399CA2934473F00DD5359 /* MyCreditManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
